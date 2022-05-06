@@ -11,3 +11,242 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/*************************** Nabvar *********************************/
+
+.AppBar {
+  position: sticky;
+  background: white;
+  top: 0px;
+}
+
+
+.link {
+  color: #3acec2;
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-size: 16px;
+  margin-left: 4%;
+  margin-right: 4%;
+  transition: all 0.5s;
+}
+
+.link:hover {
+  color: #353535;
+}
+
+.container-right {
+  display: flex;
+  justify-content: end;
+  width: 50%;
+  padding-right: 16%;
+}
+
+.container-left {
+  display: flex;
+  justify-content: end;
+  width: 50%;
+  margin-right: 15%;
+}
+
+.title {
+  color: #122a68;
+}
+
+/*************************** Home *********************************/
+
+.container {
+  width: 100%;
+  height: auto;
+  background-color: #3acec2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.container-responsive {
+  border-top: solid #35353562 3px;
+  width: 100%;
+  height: auto;
+  background-color: #3acec2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  background: white;
+  padding: 2%;
+  border-radius: 50%;
+  margin: 2%;
+  margin-top: 50px;
+}
+
+.grid {
+  display: grid; 
+  grid-template-columns: repeat(auto-fill, minmax(3rem, 300px)); 
+  grid-gap: 2rem;
+  margin-bottom: 100px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.subtitle {
+  color: #122a68;
+  font-size: 20px;
+  font-family: 'Poppins';
+  margin: 90px 0px 17px 0px;
+}
+
+.font {
+  font-family: 'Poppins';
+  color: #353535;
+}
+
+.img-body {
+  background-image: url('./components/pages/home/img/pastel.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+}
+
+.text-img {
+  background: #194474bc;
+  color: white;
+  font-family: 'Poppins';
+  font-size: 13px;
+  position: relative;
+  top: 45%;
+  padding: 15px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.text-img:hover {
+  opacity: 1;
+}
+
+/*************************** Footer *********************************/
+
+.footer {
+  background: #d9e4ea;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #353535;
+}
+
+/*************************** Responsive *********************************/
+
+.nav-gs {
+  height: auto;
+  background: #3acec2;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  padding: 18px;;
+}
+
+.nav-link-gs {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  margin-left: 4%;
+  margin-right: 4%;
+  text-decoration: none !important;
+  transition: all 0.5s;
+}
+
+.nav-link-gs:hover {
+  color: white;
+}
+
+.nav-logo-gs-max {
+  position: relative;
+  top: 5px;
+  height: 120px;
+  width: 120px;
+  transition: all 0.5s;
+}
+
+.nav-logo-gs-min {
+  position: relative;
+  top: 5px;
+  height: 80px;
+  width: 80px;
+  transition: all 0.5s;
+}
+
+.nav-button-gs {                        
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  background: transparent;
+  border: solid transparent 0px;
+  color: white;  
+  width: 40px;      
+  height: 40px;
+}
+
+.nav-menu-gs-on {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  background: #3acec2;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 85%;
+  height: 100vh;
+  transition: right 0.3s linear;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.nav-menu-gs-off {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: #3acec2;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 90%;
+  height: 100vh;
+  transition: right 0.3s linear;   
+  padding-left: 2%;
+  padding-right: 2%;     
+}
+
+.exit-gs-menu {
+  color: black;
+  background: transparent;
+  border: solid transparent 0px;
+  width: 40px;
+  margin-right: 20px;      
+  height: 40px;
+}
+
+.hr-gs {
+  background: white;
+  width: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 0.5px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
