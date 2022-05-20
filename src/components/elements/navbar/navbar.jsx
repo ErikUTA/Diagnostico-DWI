@@ -42,6 +42,12 @@ export default function SearchAppBar() {
                     <svg class="ast-mobile-svg ast-menu2-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="28" viewBox="0 0 24 28"><path d="M24 21v2c0 0.547-0.453 1-1 1h-22c-0.547 0-1-0.453-1-1v-2c0-0.547 0.453-1 1-1h22c0.547 0 1 0.453 1 1zM24 13v2c0 0.547-0.453 1-1 1h-22c-0.547 0-1-0.453-1-1v-2c0-0.547 0.453-1 1-1h22c0.547 0 1 0.453 1 1zM24 5v2c0 0.547-0.453 1-1 1h-22c-0.547 0-1-0.453-1-1v-2c0-0.547 0.453-1 1-1h22c0.547 0 1 0.453 1 1z"></path></svg>
                   </button>
                 </div>
+                {/* New changes on feature branch */}
+
+                <Button>Enviar</Button>Elements
+
+                {/*  */}
+
                 <div className={open ? 'nav-menu-gs-on' : 'nav-menu-gs-off'}>
                   <div style={{ position: 'relative', left: '235px', width: '15%', display: 'flex', justifyContent: 'right', padding: '4%' }}>
                     <button className='exit-gs-menu center-gs' onClick={(e) => setOpen(false)}>
