@@ -44,7 +44,7 @@ export default function SearchAppBar() {
                 </div>
                 {/* New changes on feature branch */}
 
-                <Button>Enviar</Button>Elements
+                <Button>Enviar</Button>New data
 
                 {/*  */}
 
